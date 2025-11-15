@@ -1,5 +1,4 @@
 // 随机文字库
-Afternoon 随机提醒 · 称呼可变版（{nick} = 笨蛋 / 坏蛋 / 呆子 / 小蠢子）
 const nicknames = ["笨蛋", "坏蛋", "呆子", "小蠢子"];
 
 const textsForTangXiaoxin = [
@@ -61,4 +60,5 @@ export default {
     ctx.waitUntil(handleScheduled(event));
   }
 };
+
 
